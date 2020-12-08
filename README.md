@@ -3,6 +3,7 @@
 - ping Broadcast: 192.168.255.255
 
 # VLAN.pkt
+Es sollen VLANS auf einem Switch erstellt werden, welche beim Router verbunden sind.
 
 ## Switch
 - Vlan auf dem Switch erstellen
@@ -16,6 +17,7 @@ Subinterface im Gigaport 0/0/0 erstellen, geht nur mit dem CLI
 - `encapsulation dot1Q 2` : die 2 mit der VlanId ersetzen
 - `ip addres 192.168.1.1 255.255.255.0` : Setzen der IP fürs Subinterface
 - `exit`
+Diese IP Adresse muss bei den Host's als Gateway konfiguriert werden.
 
 ## Hilfestellungen
 - [Video: Vlan mit Packet-Tracer](https://www.youtube.com/watch?v=MKY4Yu12wlo)
