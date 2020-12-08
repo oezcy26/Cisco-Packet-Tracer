@@ -14,4 +14,5 @@ Subinterface im Gigaport 0/0/0 erstellen
 - interface Gigaport 0/0/0.1
 - encapsulation dot1Q <Vlan-id>
 - ip addres <ip für interface> (wird bei hosts als Gateway eingetragen)
+- exit
 
