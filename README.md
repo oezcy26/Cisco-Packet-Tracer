@@ -15,9 +15,11 @@ Es sollen VLANS auf einem Switch erstellt werden, welche beim Router verbunden s
 Subinterface im Gigaport 0/0/0 erstellen, geht nur mit dem CLI
 - `interface Gigaport 0/0/0.1` : für erstes Subinterface auf Port 0/0/0
 - `encapsulation dot1Q 2` : die 2 mit der VlanId ersetzen
-- `ip addres 192.168.1.1 255.255.255.0` : Setzen der IP fürs Subinterface
-- `exit`
+- `ip addres 192.168.1.1 255.255.255.0` : Setzen der IP fürs Subinterface  
 Diese IP Adresse muss bei den Host's als Gateway konfiguriert werden.
+- `exit`
+
+
 
 ## Hilfestellungen
 - [Video: Vlan mit Packet-Tracer](https://www.youtube.com/watch?v=MKY4Yu12wlo)
