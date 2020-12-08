@@ -3,6 +3,7 @@
 - ping Broadcast: 192.168.255.255
 
 # Vorgehen
+[Quelle](https://www.youtube.com/watch?v=MKY4Yu12wlo)
 ## Switch
 - Vlan auf dem Switch erstellen
 - Ports dem Vlan zuweisen
