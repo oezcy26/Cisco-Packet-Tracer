@@ -19,9 +19,9 @@ Subinterface im Gigaport 0/0/0 erstellen, geht nur mit dem CLI
 Diese IP Adresse muss bei den Host's als Gateway konfiguriert werden.
 - `exit`
 
-
-
 ## Hilfestellungen
 - [Video: Vlan mit Packet-Tracer](https://www.youtube.com/watch?v=MKY4Yu12wlo)
 - [Manual pdf](https://www.cisco.com/c/en/us/td/docs/routers/ncs6000/software/interfaces/command/reference/b-interfaces-cr-ncs6k/b_interfaces_cr50ncs_chapter_01001.pdf)
 
+# Statisches Routing
+2 Netzwerke, verbunden mit einem Zwischennetzwerk. 
