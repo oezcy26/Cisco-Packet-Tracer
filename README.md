@@ -7,8 +7,11 @@ Es sollen VLANS auf einem Switch erstellt werden, welche beim Router verbunden s
 
 ## Switch
 Wechsel in den Config-Mode: `configure terminal`
+Einzelne Untermenüs schliessen: `exit`
 
-- Vlan auf dem Switch erstellen: `vlan <vlanId> name rot`
+- Vlan auf dem Switch erstellen:
+  - `vlan database`
+  - `vlan <vlanId> name rot`
 - Interface/Port dem Vlan zuweisen
   - `interface <Iface-name>`
   - `switchport access vlan <vlanId>`
