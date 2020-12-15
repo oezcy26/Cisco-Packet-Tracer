@@ -6,9 +6,16 @@
 Es sollen VLANS auf einem Switch erstellt werden, welche beim Router verbunden sind.
 
 ## Switch
-- Vlan auf dem Switch erstellen: `https://www.practicalnetworking.net/stand-alone/routing-between-vlans/`
-- Ports dem Vlan zuweisen
+Wechsel in den Config-Mode: `configure terminal`
+
+- Vlan auf dem Switch erstellen: `vlan <vlanId> name rot`
+- Interface/Port dem Vlan zuweisen
+  - `interface <Iface-name>`
+  - `switchport access vlan <vlanId>`
 - Einen Port als Trunk zum Router konfigurieren. Es soll allen VLAN's erlaubt sein, den Trunk zu nutzen.
+  - `interface <Iface-name>`
+  - `switchport mode trunk` : Versetzt das interface in den Trunk-Mode für alle VLAN's
+  - `switchport trunk allowed vlan add <VlanId>` : Einzelnde VlanId's dem Trunk zuweisen.
 
 ## Router
 ### Subinterfaces
