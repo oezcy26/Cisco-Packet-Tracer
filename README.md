@@ -6,7 +6,7 @@
 Es sollen VLANS auf einem Switch erstellt werden, welche beim Router verbunden sind.
 
 ## Switch
-- Vlan auf dem Switch erstellen
+- Vlan auf dem Switch erstellen: `https://www.practicalnetworking.net/stand-alone/routing-between-vlans/`
 - Ports dem Vlan zuweisen
 - Einen Port als Trunk zum Router konfigurieren. Es soll allen VLAN's erlaubt sein, den Trunk zu nutzen.
 
